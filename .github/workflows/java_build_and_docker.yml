@@ -29,5 +29,5 @@ jobs:
         with:
           image: jacobatwoodwsu/githubactions:latest
           registry: docker.io
-          username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
+          username: ${{secrets.DOCKER_USERNAME }}
+          password: ${{secrets.DOCKER_PASSWORD }}
